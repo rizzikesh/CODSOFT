@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 6, 26);
+    color: rgb(0, 255, 255);
+    font-family: 'Merriweather', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(1, 4, 14);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 5px 25px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#one {
+    font-size: 4rem;
+    margin: 40px;
+    color: rgb(194, 130, 253);
+}
+
+.firstsec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.firstsec div {
+    width: 40%;
+}
+
+.firstsec p {
+    margin-top: 8px;
+}
+
+.leftsec {
+    background-color: rgba(30, 49, 83, 0.534);
+    border: 3px solid rgba(127, 144, 241, 0.521);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.leftsec:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.leftsec img {
+    width: 40%;
+    margin: 50px 0;
+}
+
+.leftsec h4 {
+    font-size: 3rem;
+    margin: 15px;
+    font-weight: 200;
+}
+
+.leftsec p {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.name {
+    color: chartreuse;
+    font-weight: 900;
+}
+
+#element {
+    font-size: 2rem;
+    margin: 20px;
+    color: aquamarine;
+    font-weight: 500;
+}
+
+.rightsec img {
+    width: 60%;
+}
+
+main hr {
+    border: 0;
+    background-color: brown;
+    height: 2px;
+    margin: 50px 70px;
+}
+
+.two {
+    color: rgba(255, 166, 1, 0.596);
+}
+
+.sections {
+    max-width: 80vw;
+    margin: 30px 90px;
+    height: 80vh;
+}
+
+.sections h1 {
+    font-size: 2rem;
+}
+
+.partone,
+.parttwo {
+    display: flex;
+    height: 40vh;
+}
+
+.parttwo {
+    margin-bottom: 60px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience .box {
+    background-color: antiquewhite;
+    width: 80vw;
+    height: 2px;
+    margin: 5% 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience .vertical {
+    background-color: antiquewhite;
+    height: 95px;
+    width: 2px;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -35px;
+    left: -10px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    left: -40px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    left: -60px;
+    color: beige;
+    width: 150px;
+    font-size: 11px;
+}
+
+#hr {
+    height: 1px;
+    background-color: grey;
+    border: 0;
+}
+
+.btn {
+    background-color: rgb(1, 4, 14);
+    color: rgb(9, 255, 0);
+    border: 1px solid rgb(9, 255, 0);
+    border-radius: 6px;
+    padding: 15px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(3, 3, 99, 0.616);
+    transition: 0.1s;
+}
+
+.about h2 {
+    margin: 50px 0;
+    font-size: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.content h6 {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    color: rgb(130, 80, 245);
+}
+
+.leftsecabout,
+.rightsecabout {
+    margin: 20px;
+    padding: 3%;
+    width: 50%;
+    height: 40vh;
+    color: rgb(68, 0, 255);
+    background-color: rgba(84, 144, 197, 0.041);
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin: 4%;
+    padding: 1em;
+    width: 20rem;
+    border: 2px solid white;
+}
+
+.content2 hr {
+    background-color: rgba(255, 255, 255, 0.37);
+    padding: 0;
+    margin: 1em 0;
+}
+
+.content2 img {
+    height: 40%;
+    position: relative;
+}
+
+.content2 h5 {
+    margin: 0.5em 0;
+    color: aquamarine;
+}
+
+.card-text {
+    color: rgb(0, 60, 255);
+    margin-bottom: 5px;
+}
+
+.card:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+    background-color: rgba(107, 208, 255, 0.137);
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-container {
+    background-color: #ffffff17;
+    color: chartreuse;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 255, 98, 0.342);
+    border-radius: 0 110px;
+    border: 5px double rgba(0, 225, 255, 0.253);
+}
+
+form{
+    margin: 2em;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3d3c3c;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+#name, #email, #message{
+    background-color: #00ccff25;
+    color: aquamarine;
+}
+
+button {
+    background-color: #5900ff6e;
+    color: #00ffd5;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6302ffa4;
+    transition: 0.1s;
+}
+
+footer {
+    background-color: rgb(1, 4, 14);
+    color: rgb(255, 38, 0);
+}
+
+.footer {
+    display: flex;
+    padding: 25px 120px;
+    justify-content: space-around;
+}
+
+.footer-right {
+    text-align: center;
+    color: rgb(9, 255, 0);
+    padding: 10px 0;
+}
+
+.footer-first h3{
+    font-size: 1.5rem;
+}
+
+#footer{
+    color: #00ffd5;
+    font-size: small;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+#footer:hover{
+    cursor: pointer;
+    border: 1px solid #ffa600;
+    border-radius: 3px;
+
+}
+
+.footer i,a{
+    margin: 0 2px;
+    font-size: 22px;
+    text-decoration: none;
+}
